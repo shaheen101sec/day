@@ -34,16 +34,37 @@
         }
 
         .container-lg {
-            display: inline-block;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             text-align: center;
         }
 
         table {
-            margin: 0 auto;
+            margin: 1rem auto;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+
+        th, td {
+            padding: 0.5rem 1rem;
+            text-align: center; /* Horizontal alignment */
+            vertical-align: middle; /* Vertical alignment */
+        }
+
+        thead {
+            vertical-align: middle;
+        }
+
+        tr {
+            vertical-align: middle;
         }
 
         ul, ol {
-            margin: 0 auto;
+            margin: 1rem auto;
             text-align: left;
             display: inline-block;
         }
@@ -173,61 +194,6 @@
             </tbody>
         </table>
         <hr />
-        <h1 id="جدول-التمرين">جدول التمرين:</h1>
-        <blockquote>
-            <p>لا يهم من أي يوم تبدأ (أحد، خميس، سبت) المهم أن تكون منتظماً</p>
-        </blockquote>
-        <table>
-            <thead>
-                <tr>
-                    <th>التمرين</th>
-                    <th>المجموعات</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>صدر + كتف + ترايسيبس</td>
-                    <td>كل واحدة خمس مجموعات، كل مجموعة حتى آخر شيء ممكن من العادة</td>
-                </tr>
-                <tr>
-                    <td>بايسيبس + ظهر</td>
-                    <td>كل واحدة خمس مجموعات، كل مجموعة حتى آخر شيء ممكن من العادة</td>
-                </tr>
-                <tr>
-                    <td>بطن + رجل</td>
-                    <td>كل واحدة خمس مجموعات، كل مجموعة حتى آخر شيء ممكن من العادة</td>
-                </tr>
-                <tr>
-                    <td>راحة</td>
-                    <td>في اليوم الرابط (منتصف أيام التمارين)</td>
-                </tr>
-                <tr>
-                    <td>صدر + كتف + ترايسيبس</td>
-                    <td>كل واحدة خمس مجموعات، كل مجموعة حتى آخر شيء ممكن من العادة</td>
-                </tr>
-                <tr>
-                    <td>بايسيبس + ظهر</td>
-                    <td>كل واحدة خمس مجموعات، كل مجموعة حتى آخر شيء ممكن من العادة</td>
-                </tr>
-                <tr>
-                    <td>بطن + رجل</td>
-                    <td>كل واحدة خمس مجموعات، كل مجموعة حتى آخر شيء ممكن من العادة</td>
-                </tr>
-            </tbody>
-        </table>
-        <hr />
-        <h1 id="إرشادات">إرشادات:</h1>
-        <ul>
-            <li>الاستحمام دائماً بالماء البارد</li>
-            <li>كل بشكل مناسب بحيث لا تسمن ولا تنحف</li>
-            <li>ارب لترين ماء في اليوم على الأقل: أديها كبايتين كدا مع كل صلاة</li>
-            <li>حاول الصلاة دائماً في المسجد</li>
-            <li>بطل جلد حلاوة يا ود لي مصلحتك</li>
-            <li>
-                <h2 id="بطل-تفكر-في-جميلة-شوف-مستقبلك">بطل تفكر في جميلة شوف مستقبلك</h2>
-                <h1 id="وبس-كدا-يسطااااا-وسلااامممممممممم">وبس كدا يسطااااا، وسلااامممممممممم</h1>
-            </li>
-        </ul>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
     <script>anchors.add();</script>
